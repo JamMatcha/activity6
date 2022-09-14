@@ -34,7 +34,7 @@ li[value]{
 }
 
 /*adjacent sibling selector*/
- img + li{
+ img + ul{
 	list-style-type: none;
 
 }
