@@ -1,0 +1,58 @@
+/*external styling with id*/
+#external{
+	color: yellow;
+}
+
+/*universal selector*/
+*{
+	font-family: "Verdana";
+	font-size: 20px;
+}
+
+/*type selector*/
+h1{
+	font-size: 3rem;
+}
+
+/*ID Selector*/
+
+ #h2id{
+ 	text-transform: uppercase;
+ }
+
+/*class selector*/
+.languagestolearn{
+	background-color: #aed19d ;
+}
+
+/*attribute selector*/
+
+li[value]{
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(157, 176, 209);
+}
+
+/*adjacent sibling selector*/
+ p + li{
+	list-style-type: none;
+
+}
+
+/*descendant selector*/
+section img{
+	height: 200px;
+	width: 200px;
+	border-radius: 1500px;
+}
+
+
+/*child selector*/
+ul> li {
+	letter-spacing: 10px;
+}
+
+/*general sibling selector*/
+h4 ~ p{
+	text-align: center;
+}
